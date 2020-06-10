@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Hall1</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-slides pager>
+
+    <ion-slide style="background-color:turquoise">
+      <ion-header>
+        <ion-navbar>
+          <ion-title>Orders</ion-title>
+        </ion-navbar>
+      </ion-header>
+
+
+
+    </ion-slide>
+  
+    <ion-slide style="background-color:turquoise">
+      <ion-header>
+        <ion-navbar>
+          <ion-title>Menu</ion-title>
+        </ion-navbar>
+      </ion-header>
+
+
+      <ion-list>
+        <ion-item>
+          Maggie
+          <button block ion-button icon-end (click)=maggie_add()>
+            <ion-icon name="add-circle-outline"></ion-icon>
+          </button>
+        </ion-item>
+        <ion-item>
+          Coffee
+          <button block ion-button icon-end (click)=coffee_add()>
+            <ion-icon name="add-circle-outline"></ion-icon>
+          </button>
+        </ion-item>
+        <ion-item>
+          Random
+          <button block ion-button icon-end (click)=random_add()>
+            <ion-icon name="add-circle-outline"></ion-icon>
+          </button>
+        </ion-item>
+      </ion-list> 
+
+    </ion-slide>
+  
+  </ion-slides>
+</ion-content>
